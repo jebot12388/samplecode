@@ -16,7 +16,7 @@ jobs:
       - name: Say hello
         run: echo " heelllo world"
       - name: BUILD DOCKER
-        run:  docker buit -t devops-seminar .
+        run:  docker built -t devops-seminar .
       - name: DAGAT MGA GWAPO
         run: docker run -d -p 3000:80 devops-seminar
       - name: list docker containers
